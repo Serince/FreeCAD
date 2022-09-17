@@ -255,7 +255,6 @@ class _TaskPanel:
         self.femConsoleMessage("Loading result sets...")
         self.form.l_time.setText("Time: {0:4.1f}: ".format(time.time() - self.Start))
         self.fea.reset_mesh_purge_results_checked()
-        self.fea.inp_file_name = self.fea.inp_file_name
 
         # check if ccx is greater than 2.10, if not do not read results
         # https://forum.freecadweb.org/viewtopic.php?f=18&t=23548#p183829 Point 3
